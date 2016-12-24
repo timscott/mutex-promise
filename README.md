@@ -35,7 +35,7 @@ var mutex = new MutexPromise('key', {...options}); // key will be used for local
 
 Options:
 
-- `timeout` &mdash; mutex will be automatically unlocked after timeout
+- `timeout` &mdash; mutex will be automatically unlocked after timeout (default 5000)
 - `interval` &mdash; how frequently to poll the storage for changes
 
 ```
